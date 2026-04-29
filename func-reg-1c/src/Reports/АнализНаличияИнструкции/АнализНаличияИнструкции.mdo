@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="525ebc39-23af-4c7f-8149-7cb1e2f21f71">
+  <producedTypes>
+    <objectType typeId="30f87975-a5bf-46e0-ac13-622aa6b54830" valueTypeId="e40780f3-3438-4fcd-a464-bf2d4d7eee51"/>
+    <managerType typeId="dada0fd3-553e-4e55-b2fb-43b4649d6ab6" valueTypeId="dd71f978-da01-4202-888f-09631c88e62b"/>
+  </producedTypes>
+  <name>АнализНаличияИнструкции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ наличия инструкции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализНаличияИнструкции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fdc339fa-baa4-45f1-88c0-84a43e0b5610">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

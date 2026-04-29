@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f4d434a-8c1b-433c-972e-a3c7c05a565c">
+  <name>РеестрФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр функций</value>
+  </synonym>
+  <comment>1.1.0.1</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаАвтосалонЗаказы</picture>
+  </picture>
+  <content>Role.ПолныеПрава</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>EventSubscription.СправочникиПередЗаписью</content>
+  <content>CommonModule.ПодпискиНаСобытияСправочники</content>
+  <content>CommandGroup.Функции</content>
+  <content>CommandGroup.Задачи</content>
+  <content>CommandGroup.Инструкции</content>
+  <content>Catalog.ОбъектыФункций</content>
+  <content>Catalog.Статусы</content>
+  <content>Catalog.Действия</content>
+  <content>Catalog.ЗадачиУчетныхСистем</content>
+  <content>Catalog.Функции</content>
+  <content>CommonPicture.ПодсистемаАвтосалонЗаказы</content>
+  <content>CommonPicture.ПодсистемаПредприятие</content>
+  <content>StyleItem.ЦветАктивностиРеестрФункций</content>
+  <content>StyleItem.ЦветАкцентированияРеестрФункций</content>
+  <content>StyleItem.ЦветВажногоРеестрФункций</content>
+  <content>StyleItem.ЦветДополнительнойНавигацииРеестрФункций</content>
+  <content>StyleItem.ЦветНавигацииРеестрФункций</content>
+  <content>Style.РеестрФункцийОсновнойСтиль</content>
+  <content>InformationRegister.РеестрФункций</content>
+  <content>Report.АнализРеестраФункций</content>
+  <content>DataProcessor.УправлениеРеестромФункций</content>
+  <content>InformationRegister.ВнутренниеОбсуждения</content>
+  <content>InformationRegister.Инструкции</content>
+  <content>Catalog.Инструкции</content>
+  <content>Enum.НаличиеСвойства</content>
+  <content>Report.АнализНаличияИнструкции</content>
+  <content>Catalog.СтатусыИнструкций</content>
+  <content>Report.АнализНеобходимостиОбновленияИнструкций</content>
+  <content>DataProcessor.ЗагрузкаОбъектов</content>
+  <content>Catalog.Проекты</content>
+  <content>Constant.ПроектПоУмолчанию</content>
+  <content>ChartOfCharacteristicTypes.СвойстваИнструкций</content>
+  <content>Catalog.ДополнительныеСвойства</content>
+  <content>ChartOfCharacteristicTypes.СвойстваЗадачУчетныхСистем</content>
+  <content>fb02f635-bed7-41fd-9b03-ff9d16658d04</content>
+  <content>CommonModule.ПодпискиНаСобытияРегистрыСведений</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыРеестрФункций</content>
+  <content>CommonModule.ПоискЗаменаЗначенийСервер</content>
+  <content>CommonModule.РеестрФункцийСлужебный</content>
+  <content>EventSubscription.РегистрыСведенийПередЗаписью</content>
+  <content>CommandGroup.Проекты</content>
+  <content>CommandGroup.Объекты</content>
+  <content>CommonPicture.ПодборНоменклатуры</content>
+  <content>CommonPicture.РеестрФункцийАдминистрирование</content>
+  <content>CommonPicture.РеестрФункцийЛоготип</content>
+  <content>CommonPicture.РеестрФункцийОПрограмме</content>
+  <content>StyleItem.ЦветОсновнойПанелиФормы</content>
+  <content>Catalog.ПриоритетыЗадач</content>
+  <content>Catalog.ТипыЗадач</content>
+  <content>Catalog.СтатусыПроектов</content>
+</mdclass:Subsystem>

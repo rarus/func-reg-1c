@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7745b9a-7be4-41f4-afac-48321d69db45">
+  <name>СправочникиПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники (перед записью)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ОбъектыФункций</types>
+    <types>ChartOfCharacteristicTypesObject.СвойстваИнструкций</types>
+    <types>CatalogObject.СтатусыИнструкций</types>
+    <types>CatalogObject.ЗадачиУчетныхСистем</types>
+    <types>CatalogObject.Функции</types>
+    <types>ChartOfCharacteristicTypesObject.СвойстваЗадачУчетныхСистем</types>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.Инструкции</types>
+    <types>CatalogObject.ДополнительныеСвойства</types>
+    <types>CatalogObject.СтатусыПроектов</types>
+    <types>CatalogObject.ТипыЗадач</types>
+    <types>CatalogObject.Действия</types>
+    <types>CatalogObject.Статусы</types>
+    <types>CatalogObject.ПриоритетыЗадач</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПодпискиНаСобытияСправочники.СправочникиПередЗаписью</handler>
+</mdclass:EventSubscription>

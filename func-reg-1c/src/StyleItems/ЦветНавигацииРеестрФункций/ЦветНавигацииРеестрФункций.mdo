@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7de0f7ee-ca2e-4d4f-978b-66457222b4b1">
+  <name>ЦветНавигацииРеестрФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет навигации (реестр функций)</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>7</red>
+      <green>104</green>
+      <blue>159</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="019bbd0d-33a6-4c09-9ea8-4ab65ed9bb4b">
+  <producedTypes>
+    <objectType typeId="50ec404e-1766-4827-9024-dc5a33fc564c" valueTypeId="d3e5fc38-9c4c-4a3c-adbd-76ba2b4cbbee"/>
+    <managerType typeId="6463e9c8-e108-489a-89a8-8008d076f689" valueTypeId="7d07a733-e134-4aa3-bbda-1c9a0b6edb4c"/>
+  </producedTypes>
+  <name>ЗагрузкаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаОбъектов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="75536362-66a5-47ec-9569-29008029a077">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="02304068-3690-4fa0-9afa-5d16deb68245">
+    <name>ПолучитьСписокМетаданныхДляЗагрузкиВРеестрФункций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить список метаданных для загрузки в реестр функций</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

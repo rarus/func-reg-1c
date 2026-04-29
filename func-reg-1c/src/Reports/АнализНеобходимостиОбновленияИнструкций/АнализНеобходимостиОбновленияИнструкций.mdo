@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27e2d1a-8c54-49b5-b3e6-3cd7ee293340">
+  <producedTypes>
+    <objectType typeId="4674dec9-83e6-4125-947c-2327abf70049" valueTypeId="a0962e79-71f4-42fb-a75e-bb0aa1fc3d48"/>
+    <managerType typeId="2e257bfa-e569-4386-a7d2-b9ba82831d2a" valueTypeId="13c565a3-3362-4ea2-9b0d-534134ad5cc5"/>
+  </producedTypes>
+  <name>АнализНеобходимостиОбновленияИнструкций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ необходимости обновления инструкций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализНеобходимостиОбновленияИнструкций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="2b2190a0-1c3d-4ded-aa20-d5cadc87ddb3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

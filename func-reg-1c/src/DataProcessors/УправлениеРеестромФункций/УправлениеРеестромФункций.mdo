@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24be7191-4c5f-495c-86cd-08912e16d124">
+  <producedTypes>
+    <objectType typeId="3ce09fc5-c7c4-4317-97d6-96a385ffda8a" valueTypeId="d758477c-9ca1-4b83-8067-6bca22363e15"/>
+    <managerType typeId="ce777420-3def-449f-8b0e-a7363a559321" valueTypeId="e034cdab-c6ef-4280-af0f-23cd89ffec00"/>
+  </producedTypes>
+  <name>УправлениеРеестромФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр функций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеРеестромФункций.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f953a778-d44f-439f-b0d5-c1fb31fb214f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae195eb2-4d60-46eb-bdc8-6d2c5c16bb2a">
+    <name>ОПродукте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о программном продукте</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8ae8be08-75d3-4e0c-aac5-7bb39ce946b6">
+    <name>УправлениеРеестромФункций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр функций</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

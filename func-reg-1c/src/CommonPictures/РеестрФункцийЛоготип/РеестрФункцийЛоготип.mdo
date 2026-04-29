@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="891a97a5-7aff-4735-b19c-63c0d7ce734e">
+  <name>РеестрФункцийЛоготип</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр функций - логотип</value>
+  </synonym>
+</mdclass:CommonPicture>

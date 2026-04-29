@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c68d88f2-82a7-4c1d-8887-6a05a81fdb02">
+  <producedTypes>
+    <objectType typeId="b7ca4f2a-ba1f-4e9c-a09c-d43dc4193c99" valueTypeId="6173a1a6-51c1-4a36-aeaf-7092994f39c0"/>
+    <managerType typeId="d7875814-cd99-40a7-a61e-3348c84b1590" valueTypeId="52af1de8-7dda-4d8e-9dee-e8f76d9c4231"/>
+  </producedTypes>
+  <name>АнализРеестраФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ реестра функций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализРеестраФункций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="b55cbfc3-ab5d-4c5c-bfa8-983fcb8e3837">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

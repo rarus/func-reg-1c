@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18d773dc-b93b-49df-a250-a0d98d294e1e">
+  <name>пр_ПоддержкаОтраслевыхРешений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка отраслевых решений</value>
+  </synonym>
+  <comment>1.1.3.2</comment>
+  <content>CommonModule.пр_ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.пр_ПоддержкаОтраслевыхРешенийСлужебный</content>
+  <content>CommonModule.пр_ПоддержкаОтраслевыхРешенийПереопределяемый</content>
+  <content>CommonModule.пр_ПоддержкаОтраслевыхРешений</content>
+  <content>CommonModule.пр_ПоддержкаОтраслевыхРешенийКлиент</content>
+  <content>CommandGroup.пр_ОбращениеВТехническуюПоддержку</content>
+  <content>Constant.пр_ПараметрыОтраслевойПоддержки</content>
+</mdclass:Subsystem>

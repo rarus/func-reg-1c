@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32379b0b-a824-4eef-98cb-7715db4112c7">
+  <name>ВерсионированиеОбъектовСправочникиПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование справочников (перед записью)</value>
+  </synonym>
+  <comment>Версионирование справочников (перед записью)</comment>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВерсионированиеОбъектовСобытия.ЗаписатьВерсиюОбъекта</handler>
+</mdclass:EventSubscription>

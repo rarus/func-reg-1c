@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8124aa28-720f-4d6b-befc-42fbf33bae45">
+  <name>ОбъектыИсключенныхПодсистемБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты исключенных подсистем БСП</value>
+  </synonym>
+  <content>CommonPicture.ВертикальноеПоложениеВерх</content>
+  <content>CommonPicture.ВертикальноеПоложениеНиз</content>
+  <content>CommonPicture.ВертикальноеПоложениеЦентр</content>
+  <content>CommonPicture.ВставитьГруппировкуВыше</content>
+  <content>CommonPicture.ВставитьГруппировкуНиже</content>
+  <content>CommonPicture.ВставитьКолонкуСлева</content>
+  <content>CommonPicture.ВставитьКолонкуСправа</content>
+  <content>CommonPicture.ВысотаСтроки</content>
+  <content>CommonPicture.ОтменитьДействие</content>
+  <content>CommonPicture.Отчеты</content>
+  <content>CommonPicture.ПереместитьВправоВниз</content>
+  <content>CommonPicture.ПовторитьДействие</content>
+  <content>CommonPicture.ШиринаКолонки</content>
+  <content>StyleItem.ГруппаВариантовОтчетовЦвет</content>
+  <content>StyleItem.ЦветФонаВнимание</content>
+</mdclass:Subsystem>

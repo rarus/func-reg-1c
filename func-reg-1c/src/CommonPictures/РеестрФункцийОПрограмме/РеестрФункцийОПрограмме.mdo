@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90e6bcdf-5bcd-4591-9dc4-80a505dacd78">
+  <name>РеестрФункцийОПрограмме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр функций - о программе</value>
+  </synonym>
+  <comment>Реестр функций - о программе</comment>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

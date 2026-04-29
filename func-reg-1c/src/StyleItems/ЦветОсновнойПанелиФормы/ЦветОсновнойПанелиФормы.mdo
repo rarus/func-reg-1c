@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2704c69a-5268-4021-83e2-0a0b189af9fc">
+  <name>ЦветОсновнойПанелиФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет основной панели формы</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>248</red>
+      <green>248</green>
+      <blue>248</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

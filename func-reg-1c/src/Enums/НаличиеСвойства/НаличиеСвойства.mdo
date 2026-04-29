@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a5f170d-a9b7-49e1-bca2-84643205a31d">
+  <producedTypes>
+    <refType typeId="3d8d7ff4-71c8-4946-b991-00d4c4f7ec11" valueTypeId="8598a180-b61d-495a-899b-c079001c7cd3"/>
+    <listType typeId="37f9b531-836c-4564-b361-5910838bf38e" valueTypeId="0a48d520-2cca-49e3-bd5b-cdf95ba750a9"/>
+    <managerType typeId="fca75919-42d3-4a8c-b942-cbcd1c914591" valueTypeId="16ecf4bf-049f-46d1-a0be-1341c00e31ee"/>
+  </producedTypes>
+  <name>НаличиеСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие свойства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="95ba5df2-cce3-4741-92d2-e8c2cadac432">
+    <name>Есть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e130ed7d-739f-415f-b214-854ebac9a65b">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0efd9fd3-4815-41aa-a878-4ade4b918c13">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3390566-98fc-4b5a-85e0-1594e5310a30">
+    <name>Требуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
