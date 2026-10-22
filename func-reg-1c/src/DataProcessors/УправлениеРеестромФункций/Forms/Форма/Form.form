@@ -6301,49 +6301,6 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>СписокРегистраСведенийДатаИзменения</name>
-              <id>246</id>
-              <titleTextColor xsi:type="core:ColorRef">
-                <color>Web.RoyalBlue</color>
-              </titleTextColor>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>СписокРегистраСведений.ДатаИзменения</segments>
-              </dataPath>
-              <extendedTooltip>
-                <name>СписокРегистраСведенийДатаИзмененияРасширеннаяПодсказка</name>
-                <id>248</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>СписокРегистраСведенийДатаИзмененияКонтекстноеМеню</name>
-                <id>247</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>LabelField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:LabelFieldExtInfo">
-                <width>13</width>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <textColor xsi:type="core:ColorRef">
-                  <color>Web.RoyalBlue</color>
-                </textColor>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
               <name>СписокРегистраСведенийДатаСоздания</name>
               <id>249</id>
               <titleTextColor xsi:type="core:ColorRef">
@@ -6370,6 +6327,92 @@
               <contextMenu>
                 <name>СписокРегистраСведенийДатаСозданияКонтекстноеМеню</name>
                 <id>250</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>LabelField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:LabelFieldExtInfo">
+                <width>13</width>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Web.RoyalBlue</color>
+                </textColor>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>СписокРегистраСведенийАвторИзменения</name>
+              <id>800</id>
+              <titleTextColor xsi:type="core:ColorRef">
+                <color>Web.RoyalBlue</color>
+              </titleTextColor>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СписокРегистраСведений.АвторИзменения</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>СписокРегистраСведенийАвторИзмененияРасширеннаяПодсказка</name>
+                <id>802</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СписокРегистраСведенийАвторИзмененияКонтекстноеМеню</name>
+                <id>801</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>LabelField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:LabelFieldExtInfo">
+                <width>15</width>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Web.RoyalBlue</color>
+                </textColor>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>СписокРегистраСведенийДатаИзменения</name>
+              <id>246</id>
+              <titleTextColor xsi:type="core:ColorRef">
+                <color>Web.RoyalBlue</color>
+              </titleTextColor>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СписокРегистраСведений.ДатаИзменения</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>СписокРегистраСведенийДатаИзмененияРасширеннаяПодсказка</name>
+                <id>248</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СписокРегистраСведенийДатаИзмененияКонтекстноеМеню</name>
+                <id>247</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>LabelField</type>
@@ -7200,7 +7243,8 @@
 	РеестрФункций.Автор КАК Автор,
 	РеестрФункций.Комментарий КАК Комментарий,
 	РеестрФункций.ДатаСоздания КАК ДатаСоздания,
-	РеестрФункций.ДатаИзменения КАК ДатаИзменения
+	РеестрФункций.ДатаИзменения КАК ДатаИзменения,
+	РеестрФункций.АвторИзменения КАК АвторИзменения
 ИЗ
 	РегистрСведений.РеестрФункций КАК РеестрФункций</queryText>
       <mainTable>InformationRegister.РеестрФункций</mainTable>
@@ -7264,6 +7308,10 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ДатаИзменения</dataPath>
         <field>ДатаИзменения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АвторИзменения</dataPath>
+        <field>АвторИзменения</field>
       </fields>
     </extInfo>
   </attributes>

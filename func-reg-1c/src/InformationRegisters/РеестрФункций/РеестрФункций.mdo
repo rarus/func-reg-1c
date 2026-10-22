@@ -94,11 +94,11 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="f6d96c8e-a2fa-4225-bf09-dbbab3bed07e">
-    <name>ДатаИзменения</name>
+  <attributes uuid="fa62cacf-0237-462c-a41f-6e362b3d20c7">
+    <name>ДатаСоздания</name>
     <synonym>
       <key>ru</key>
-      <value>Изменен</value>
+      <value>Создан</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -110,11 +110,26 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="fa62cacf-0237-462c-a41f-6e362b3d20c7">
-    <name>ДатаСоздания</name>
+  <attributes uuid="0a0203f8-1872-40c7-871f-17a828ec364a">
+    <name>АвторИзменения</name>
     <synonym>
       <key>ru</key>
-      <value>Создан</value>
+      <value>Изменил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f6d96c8e-a2fa-4225-bf09-dbbab3bed07e">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен</value>
     </synonym>
     <type>
       <types>Date</types>

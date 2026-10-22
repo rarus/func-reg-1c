@@ -3,9 +3,9 @@
   <name>РеестрФункций</name>
   <synonym>
     <key>ru</key>
-    <value>1С-Рарус: Реестр функций, редакция 1.0</value>
+    <value>1С-Рарус: Реестр функций, редакция 1.1</value>
   </synonym>
-  <comment>1С-Рарус: Реестр функций, редакция 1.0</comment>
+  <comment>1С-Рарус: Реестр функций, редакция 1.1</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0d96a143-349a-4229-a3ec-da3f1f756ee4"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dedb051c-5e3d-437a-a2fa-373975357de4"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="894df7dd-113b-49fa-a1f8-f108183680d4"/>
@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;1С-РАРУС&quot;</vendor>
-  <version>1.1.0.1</version>
+  <version>1.1.1.1</version>
   <updateCatalogAddress>https://rarus.ru/downloads/4458/</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -45,11 +45,11 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>1С-Рарус: Реестр функций, редакция 1.0</value>
+    <value>1С-Рарус: Реестр функций, редакция 1.1</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>1С-Рарус: Реестр функций, редакция 1.0</value>
+    <value>1С-Рарус: Реестр функций, редакция 1.1</value>
   </detailedInformation>
   <logo/>
   <splash/>
@@ -516,6 +516,10 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
+  <roles>Role.РеестрФункций_Администратор</roles>
+  <roles>Role.РеестрФункций_Аналитик</roles>
+  <roles>Role.РеестрФункций_Просмотр</roles>
+  <roles>Role.РеестрФункций_ФункциональныйАрхитектор</roles>
   <roles>Role.РежимТехническогоСпециалиста</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
@@ -525,6 +529,7 @@
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <roles>Role.ЧтениеИнформацииОВерсияхОбъектов</roles>
   <commonTemplates>CommonTemplate.КомпонентаПоискаСтрок</commonTemplates>
+  <commonTemplates>CommonTemplate.ОписаниеИзмененийСистемы</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
@@ -532,7 +537,6 @@
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
-  <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</commonModules>
   <commonModules>CommonModule.ВариантыОтчетов</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
@@ -595,7 +599,6 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбработкаСобытийОбъектаСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
@@ -619,8 +622,6 @@
   <commonModules>CommonModule.ПодключаемыеКомандыКлиентСервер</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПовтИсп</commonModules>
-  <commonModules>CommonModule.ПодпискиНаСобытияРегистрыСведений</commonModules>
-  <commonModules>CommonModule.ПодпискиНаСобытияСправочники</commonModules>
   <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.ПоискЗаменаЗначенийСервер</commonModules>
   <commonModules>CommonModule.ПоискИУдалениеДублей</commonModules>
@@ -679,7 +680,6 @@
   <commonModules>CommonModule.УдалениеПомеченныхОбъектовСлужебный</commonModules>
   <commonModules>CommonModule.УдалениеПомеченныхОбъектовСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.УдалениеПомеченныхОбъектовСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.УправлениеДиалогомСервер</commonModules>
   <commonModules>CommonModule.УправлениеДоступом</commonModules>
   <commonModules>CommonModule.УправлениеДоступомПереопределяемый</commonModules>
   <commonModules>CommonModule.УправлениеДоступомСлужебный</commonModules>
@@ -707,8 +707,6 @@
   <webServices>WebService.RemoteControl</webServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ВерсионированиеОбъектовДокументыПередЗаписью</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ВерсионированиеОбъектовСправочникиПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаписатьВерсиюОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаписатьЗависимыеНаборыЗначенийДоступа</eventSubscriptions>
@@ -741,8 +739,6 @@
   <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписей</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписейРегистраРасчета</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьИзмененияДатВПредмете</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.РегистрыСведенийПередЗаписью</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.СправочникиПередЗаписью</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольУдаленияПомеченныхОбъектов</scheduledJobs>
@@ -958,6 +954,7 @@
   <reports>Report.АнализНеобходимостиОбновленияИнструкций</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.АнализРеестраФункций</reports>
+  <reports>Report.ДинамикаПриростаРеестраФункцийИЗадач</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ИзменениеРазрешенныхЗначенийГруппДоступа</reports>
   <reports>Report.ИзменениеРолейПрофилей</reports>

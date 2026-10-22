@@ -122,17 +122,17 @@
   <defaultChoiceForm>Catalog.СтатусыИнструкций.Form.ФормаВыбора</defaultChoiceForm>
   <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
   <attributes uuid="ccafd898-b112-4788-adc2-20528a2d73d2">
-    <name>Обработана</name>
+    <name>УдалитьОбработана</name>
     <synonym>
       <key>ru</key>
-      <value>Обработана</value>
+      <value>Обработана (не используется)</value>
     </synonym>
     <type>
       <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>При указании в инструкции статуса с включенным флагом &quot;Обработана&quot; считается, что инструкция полностью обработана в реестре функций</value>
+      <value>Обработана (не используется)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

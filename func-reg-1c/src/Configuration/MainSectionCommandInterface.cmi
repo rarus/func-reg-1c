@@ -56,6 +56,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Report.ДинамикаПриростаРеестраФункцийИЗадач.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаОбъектов.StandardCommand.Open</command>
       <visible>
         <common>true</common>
@@ -89,6 +95,7 @@
       <commands>Report.АнализНаличияИнструкции.StandardCommand.Open</commands>
       <commands>Report.АнализНеобходимостиОбновленияИнструкций.StandardCommand.Open</commands>
       <commands>Report.АнализРеестраФункций.StandardCommand.Open</commands>
+      <commands>Report.ДинамикаПриростаРеестраФункцийИЗадач.StandardCommand.Open</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelTools</group>

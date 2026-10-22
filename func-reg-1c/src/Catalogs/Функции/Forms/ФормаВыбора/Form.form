@@ -47,6 +47,56 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
+      <name>НовоеУведомление</name>
+      <id>67</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НовоеУведомление</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>НовоеУведомлениеРасширеннаяПодсказка</name>
+        <id>69</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НовоеУведомлениеКонтекстноеМеню</name>
+        <id>68</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>PictureField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>StdPicture.Notifications</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:ImageFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>StdPicture.Notify</picture>
+        </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>16</id>
       <title>
@@ -688,9 +738,40 @@
 	Функции.Автор КАК Автор,
 	Функции.ДатаИзменения КАК ДатаИзменения,
 	Функции.ДатаСоздания КАК ДатаСоздания,
-	Функции.Комментарий КАК Комментарий
+	Функции.Комментарий КАК Комментарий,
+	МАКСИМУМ(НЕ ВнутренниеОбсуждения.Прочитано) КАК НовоеУведомление
 ИЗ
-	Справочник.Функции КАК Функции</queryText>
+	Справочник.Функции КАК Функции
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ВнутренниеОбсуждения КАК ВнутренниеОбсуждения
+		ПО (Функции.Ссылка = (ВЫРАЗИТЬ(ВнутренниеОбсуждения.Объект КАК Справочник.Функции)))
+			И (НЕ ВнутренниеОбсуждения.Пользователь = &amp;Пользователь)
+			И (ВнутренниеОбсуждения.ПользовательАдресат = &amp;Пользователь
+				ИЛИ ВнутренниеОбсуждения.ПользовательАдресат = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка))
+
+СГРУППИРОВАТЬ ПО
+	Функции.Ссылка,
+	Функции.ПометкаУдаления,
+	Функции.Родитель,
+	Функции.Код,
+	Функции.Наименование,
+	Функции.Проект,
+	Функции.Предопределенный,
+	Функции.ИмяПредопределенныхДанных,
+	Функции.Автор,
+	Функции.ДатаИзменения,
+	Функции.ДатаСоздания,
+	Функции.Комментарий,
+	ВЫРАЗИТЬ(Функции.Содержание КАК СТРОКА(1024)),
+	ВЫБОР
+		КОГДА НЕ Функции.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.Функции.ПустаяСсылка)
+			ТОГДА Функции.Родитель
+		ИНАЧЕ ЗНАЧЕНИЕ(Справочник.Функции.ПустаяСсылка)
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Функции.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.Функции.ПустаяСсылка)
+			ТОГДА Функции.Родитель
+		ИНАЧЕ ЕСТЬNULL(Функции.Родитель.Родитель, ЗНАЧЕНИЕ(Справочник.Функции.ПустаяСсылка))
+	КОНЕЦ</queryText>
       <mainTable>Catalog.Функции</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -781,6 +862,18 @@
         <field>Комментарий</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НовоеУведомление</dataPath>
+        <field>НовоеУведомление</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Новое уведомление</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>СодержаниеHTML</dataPath>
         <field>СодержаниеHTML</field>
       </fields>
@@ -788,6 +881,22 @@
         <dataPath>СодержаниеHTML_Картинки</dataPath>
         <field>СодержаниеHTML_Картинки</field>
       </fields>
+      <parameters>
+        <name>Пользователь</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Пользователь</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.Пользователи</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <formCommands>

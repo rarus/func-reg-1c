@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0351a2d1-e3b4-4ed9-a15f-dd636e71cfb0">
+  <name>РеестрФункций_Аналитик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитик (реестр функций)</value>
+  </synonym>
+</mdclass:Role>

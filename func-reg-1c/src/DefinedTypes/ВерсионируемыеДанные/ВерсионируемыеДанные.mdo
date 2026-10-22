@@ -10,14 +10,17 @@
   </synonym>
   <type>
     <types>CatalogRef.Функции</types>
+    <types>CatalogRef.ТипыЗадач</types>
     <types>CatalogRef.Инструкции</types>
     <types>ChartOfCharacteristicTypesRef.СвойстваЗадачУчетныхСистем</types>
     <types>CatalogRef.Действия</types>
     <types>CatalogRef.Статусы</types>
     <types>CatalogRef.СтатусыИнструкций</types>
     <types>ChartOfCharacteristicTypesRef.СвойстваИнструкций</types>
+    <types>CatalogRef.ПриоритетыЗадач</types>
     <types>CatalogRef.ДополнительныеСвойства</types>
     <types>CatalogRef.ЗадачиУчетныхСистем</types>
+    <types>CatalogRef.СтатусыПроектов</types>
     <types>CatalogRef.Проекты</types>
     <types>CatalogRef.ПрофилиГруппДоступа</types>
     <types>CatalogRef.ОбъектыФункций</types>

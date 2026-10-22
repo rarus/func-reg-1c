@@ -119,7 +119,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <width>8</width>
+        <width>15</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
@@ -949,7 +949,7 @@
 	СправочникЗадачиУчетныхСистем.Наименование КАК Наименование,
 	СправочникЗадачиУчетныхСистем.СтатусЗадачи КАК СтатусЗадачи,
 	СправочникЗадачиУчетныхСистем.Содержание КАК Содержание,
-	СправочникЗадачиУчетныхСистем.СтатусЗадачи.Обработана КАК Обработана,
+	СправочникЗадачиУчетныхСистем.Обработана КАК Обработана,
 	СправочникЗадачиУчетныхСистем.ДругимПодрядчиком КАК ДругимПодрядчиком,
 	СправочникЗадачиУчетныхСистем.Автор КАК Автор,
 	СправочникЗадачиУчетныхСистем.ДатаИзменения КАК ДатаИзменения,
@@ -975,7 +975,7 @@
 	СправочникЗадачиУчетныхСистем.Наименование,
 	СправочникЗадачиУчетныхСистем.СтатусЗадачи,
 	СправочникЗадачиУчетныхСистем.Содержание,
-	СправочникЗадачиУчетныхСистем.СтатусЗадачи.Обработана,
+	СправочникЗадачиУчетныхСистем.Обработана,
 	СправочникЗадачиУчетныхСистем.ДругимПодрядчиком,
 	СправочникЗадачиУчетныхСистем.Автор,
 	СправочникЗадачиУчетныхСистем.ДатаИзменения,
@@ -1103,10 +1103,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>НаличиеТестирования</dataPath>
         <field>НаличиеТестирования</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>НаличиеТестирования1</dataPath>
-        <field>НаличиеТестирования1</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЭтоГруппа</dataPath>

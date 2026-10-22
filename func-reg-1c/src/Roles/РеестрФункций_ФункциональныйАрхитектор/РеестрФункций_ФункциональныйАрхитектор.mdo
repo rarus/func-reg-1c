@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55135037-ee57-488c-bbef-fd9d1c8ae985">
+  <name>РеестрФункций_ФункциональныйАрхитектор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональный архитектор (реестр функций)</value>
+  </synonym>
+</mdclass:Role>

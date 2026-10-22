@@ -158,6 +158,43 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>ПользовательАдресат</name>
+      <id>40</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПользовательАдресат</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПользовательАдресатРасширеннаяПодсказка</name>
+        <id>42</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПользовательАдресатКонтекстноеМеню</name>
+        <id>41</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <width>22</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ТекстСообщения</name>
       <id>25</id>
       <titleTextColor xsi:type="core:ColorRef">
@@ -199,6 +236,42 @@
           <color>Web.Green</color>
         </textColor>
       </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Прочитано</name>
+      <id>43</id>
+      <titleTextColor xsi:type="core:ColorRef">
+        <color>Web.RoyalBlue</color>
+      </titleTextColor>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Прочитано</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПрочитаноРасширеннаяПодсказка</name>
+        <id>45</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПрочитаноКонтекстноеМеню</name>
+        <id>44</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
       <name>Автор</name>
@@ -244,49 +317,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДатаИзменения</name>
-      <id>31</id>
-      <titleTextColor xsi:type="core:ColorRef">
-        <color>Web.RoyalBlue</color>
-      </titleTextColor>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаИзменения</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ДатаИзмененияРасширеннаяПодсказка</name>
-        <id>33</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ДатаИзмененияКонтекстноеМеню</name>
-        <id>32</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <width>13</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorRef">
-          <color>Web.RoyalBlue</color>
-        </textColor>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>ДатаСоздания</name>
       <id>34</id>
       <titleTextColor xsi:type="core:ColorRef">
@@ -313,6 +343,49 @@
       <contextMenu>
         <name>ДатаСозданияКонтекстноеМеню</name>
         <id>35</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <width>13</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Web.RoyalBlue</color>
+        </textColor>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаИзменения</name>
+      <id>31</id>
+      <titleTextColor xsi:type="core:ColorRef">
+        <color>Web.RoyalBlue</color>
+      </titleTextColor>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаИзменения</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаИзмененияРасширеннаяПодсказка</name>
+        <id>33</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаИзмененияКонтекстноеМеню</name>
+        <id>32</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>

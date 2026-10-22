@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="beb6360f-c18f-4a7b-9044-1b73d0a7fc0d">
+  <name>ОписаниеИзмененийСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание изменений системы</value>
+  </synonym>
+</mdclass:CommonTemplate>

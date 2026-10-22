@@ -122,17 +122,17 @@
   <defaultChoiceForm>Catalog.Статусы.Form.ФормаВыбора</defaultChoiceForm>
   <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
   <attributes uuid="07149e1b-230d-4f8c-a608-43e06b633c99">
-    <name>Обработана</name>
+    <name>УдалитьОбработана</name>
     <synonym>
       <key>ru</key>
-      <value>Обработана</value>
+      <value>Обработана (не используется)</value>
     </synonym>
     <type>
       <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>При указании в задаче статуса с включенным флагом &quot;Обработана&quot; считается, что задача полностью обработана в реестре функций</value>
+      <value>Обработана (не используется)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

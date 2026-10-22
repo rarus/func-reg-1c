@@ -5,16 +5,12 @@
     <key>ru</key>
     <value>Реестр функций</value>
   </synonym>
-  <comment>1.1.0.1</comment>
+  <comment>1.1.1.1</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПодсистемаАвтосалонЗаказы</picture>
   </picture>
-  <content>Role.ПолныеПрава</content>
-  <content>SessionParameter.ТекущийПользователь</content>
-  <content>EventSubscription.СправочникиПередЗаписью</content>
-  <content>CommonModule.ПодпискиНаСобытияСправочники</content>
   <content>CommandGroup.Функции</content>
   <content>CommandGroup.Задачи</content>
   <content>CommandGroup.Инструкции</content>
@@ -47,12 +43,9 @@
   <content>ChartOfCharacteristicTypes.СвойстваИнструкций</content>
   <content>Catalog.ДополнительныеСвойства</content>
   <content>ChartOfCharacteristicTypes.СвойстваЗадачУчетныхСистем</content>
-  <content>fb02f635-bed7-41fd-9b03-ff9d16658d04</content>
-  <content>CommonModule.ПодпискиНаСобытияРегистрыСведений</content>
   <content>CommonModule.ОбновлениеИнформационнойБазыРеестрФункций</content>
   <content>CommonModule.ПоискЗаменаЗначенийСервер</content>
   <content>CommonModule.РеестрФункцийСлужебный</content>
-  <content>EventSubscription.РегистрыСведенийПередЗаписью</content>
   <content>CommandGroup.Проекты</content>
   <content>CommandGroup.Объекты</content>
   <content>CommonPicture.ПодборНоменклатуры</content>
@@ -63,4 +56,11 @@
   <content>Catalog.ПриоритетыЗадач</content>
   <content>Catalog.ТипыЗадач</content>
   <content>Catalog.СтатусыПроектов</content>
+  <content>Report.ДинамикаПриростаРеестраФункцийИЗадач</content>
+  <content>Role.РеестрФункций_Администратор</content>
+  <content>Role.РеестрФункций_Аналитик</content>
+  <content>Role.РеестрФункций_Просмотр</content>
+  <content>Role.РеестрФункций_ФункциональныйАрхитектор</content>
+  <content>CommonTemplate.ОписаниеИзмененийСистемы</content>
+  <content>CommonModule.РеестрФункцийСервер</content>
 </mdclass:Subsystem>

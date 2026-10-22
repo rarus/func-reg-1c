@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="313209ca-0405-4712-8756-212b84741635">
+  <producedTypes>
+    <objectType typeId="aacae5b6-42d2-4508-8d0e-b316e78e10de" valueTypeId="4f227250-eab8-46d6-9968-72901243c354"/>
+    <managerType typeId="5271d2eb-223e-4750-bf15-8f33e6a1fcae" valueTypeId="6ac3d3eb-9f4b-4d7e-8a0b-f421b11b275b"/>
+  </producedTypes>
+  <name>ДинамикаПриростаРеестраФункцийИЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика прироста реестра функций и задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДинамикаПриростаРеестраФункцийИЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="4b5e6f5a-a178-4443-b078-6647c49bbe8f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
